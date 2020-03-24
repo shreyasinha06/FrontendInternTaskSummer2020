@@ -1,0 +1,84 @@
+<!-- THE BOILERPLATE SHOULD NOT BE REMOVED -->
+<!-- Proper naming convention should be used while naming id attributes. -->
+<!-- ADDING A SUCCESS PAGE FOR THE SAME WILL BOOST YOUR CHANCES -->
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <script src="main.js"></script>
+  
+</head>
+<body>
+<img id="k1" src="https://incubateind.com/images/IncubateIND%20Black.png" class="logo" alt="ok">
+<img class="k2" src="img1.jpg">
+
+<div class="container">
+  <!-- Button to Open the Modal-->
+  <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#myModal">
+    ABOUT US
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+        <h1 class="modal-title">INCUBATE IND </h1>  
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          
+          <p><i>Incubate Ind is a Internet company and has headquarters in New,Delhi,Delhi,india. Incubate Ind has 10 employees . It was founded in 2014. Incubate Ind specialises in cyber security. Incubate Ind is a private company.</i></p>
+
+          
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+  <!-- Beautify This -->
+  <div class="log-form" >
+    <h1 ><b><i><u>Enter Your Details</u></i></b></h1>
+    <!--form part beautify-->
+    <form class="form" name="form" action="#">
+      <input type="text"  title="username" placeholder="username" required /><br><br>
+      <input type="email" class="text1" name='text1' title="email" placeholder="email" required><br><br>
+      <input type="text" class="text2" name='text2' title="pnom" placeholder="phone" required><br><br>
+      <input type="password"  class="t1" name='t1' title="password" placeholder="password" required /><br><br>
+      <input type="password" class="t2" name='t2' title="cnfpassword" placeholder="confirm password" required /><br><br>
+      <textarea  placeholder="enter message" ></textarea><br><br>
+      <div>
+      <p><i><b>Age</i></p>
+      <input type="radio" id="above" name="age" value="above" checked>
+      <label for="above" >Above 18</label>
+      <input type="radio" id="below" name="age" value="below">
+      <label for="below">Below 18</b></label><br>
+      </div>
+      <input type="submit" name="submit" class="btn btn-danger value="Submit" onclick="return  ValidateEmail(document.form.text1,document.form.text2,document.form.t1,document.form.t2)"/>
+      </form>
+  </div>
+  <script src="email-validation.js">
+</script>   
+  <!-- Beautify Ends -->
+</body>
+</html>

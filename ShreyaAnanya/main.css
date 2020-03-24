@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "open sans", helvetica, arial, sans;
+  background-color: #CD5C5C;
+}
+.logo{
+  width: 100%;
+  min-width: 20%;
+  max-width: 40%;
+}
+.log-form {
+  width: 45%;
+  height: 100%;
+  min-width: 20%;
+  max-width: 40%;
+  min-height: 20%;
+  max-height: 100%;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  text-align: center;
+}
+.log-form {
+  padding: 2em;
+  width: 45%;
+  height: 100%;
+  min-width: 20%;
+  max-width: 40%;
+  min-height: 20%;
+  max-height: 100%;
+  -webkit-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+  -moz-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+  box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+  background-color: #FA8072;
+}
+
+form
+{
+  display: block;
+  padding: 2em;
+  text-align: center;
+  width: 100%;
+  height: 90%;
+  min-height: 20%
+  max-height:90%;
+  min-width:20%;
+  max-width:100%;
+  background-color: #FFA07A;
+}
+
+
+h1 {
+  animation-duration: 3s;
+  animation-name: swing;
+  color: #800000 ;
+ width:100%;
+ min-width: 20%
+ max-width:100%;
+}
+
+.k2
+  {
+    float: right;
+    position: relative;
+    width: 35%;
+    height: 652px;
+    min-height: 600px;
+    max-height:652px;;
+    min-width:20%;
+    max-width:30%; }
+  
+img#k1
+{
+  width: 20%;
+  height:10%;
+  animation-duration: 3s;
+  animation-name: pulse_animation;
+
+}
+/* animations used */
+@keyframes pulse_animation {
+    0% { transform: scale(1); }
+    30% { transform: scale(1); }
+    40% { transform: scale(1.08); }
+    50% { transform: scale(1); }
+    60% { transform: scale(1); }
+    70% { transform: scale(1.05); }
+    80% { transform: scale(1); }
+    100% { transform: scale(1); }
+}
+
+@keyframes swing { 
+   20% { transform: rotate(15deg); } 
+   40% { transform: rotate(-10deg);} 
+   60% { transform: rotate(5deg); } 
+   80% { transform: rotate(-5deg); } 
+   100% { transform: rotate(0deg); } 
+} 
+/*animations used*/
+.modal-body  
+{
+  background-color: #FA8072;
+}
+.modal-header,.modal-footer
+{
+  background-color: #CD5C5C;
+}
+h6
+{
+  font-size: 70px;
+  text-align: center;
+  font-family: Optima;
+  color: #800000;
+}
+h5
+{
+  font-size: 40px;
+  text-align: center;
+  font-family: Optima;
+  color: #800000;
+}
+
+.rotate {
+
+    -webkit-animation: spin 1s infinite linear;
+    animation: spin 1s infinite linear;
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+textarea
+{
+  width: 60%;
+  height: 20%;
+  
+}
+.t1,.text1,.text2,.t2
+{
+  width: 47%;
+  height: 7%;
+  
+}
